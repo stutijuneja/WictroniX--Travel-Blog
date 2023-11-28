@@ -70,3 +70,91 @@ margin-left: 14vw;
     left: 50%;
     transform: translate(-50%, 0)
 }
+
+.page2 {
+    min-height: 150vh;
+    width: 100%;
+}
+
+.intro-cards {
+    /* background: rgba(220, 220, 220, 0.907); */
+    height: 60vh;
+    display: flex;
+    margin-top: 25vh;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.card {
+    height: 92%;
+    width: 25%;
+    /* background: #000; */
+    border-radius: 10px;
+}
+
+#card1 {    
+    background-image: url(shubh.jpg);
+    background-size: 100%;
+    position: relative;
+    align-items: start;
+}
+
+#card2 {
+    background-image: url(shubh.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.card p {
+    font-size: 26px;
+    display: flex;
+    margin-left: 35vh;
+    align-items: start;
+    justify-content: start;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials1,
+.socials2 {
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.social-icons {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+    left: 2;
+    width: 120 px;
+    display: none;
+    background: linear-gradient(to right, #22333b, #eae0d5);
+    border-radius: 25px;
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.socials1:hover .social-icons,
+.socials2:hover .social-icons {
+    display: flex;
+}
+
+.social-icon {
+    margin-right: 0px;
+    padding: 7px;
+}
+
+/* Add your own styles for social icons */
+.social-icon img {
+    width: 70px;
+    height: 70px;
+}
