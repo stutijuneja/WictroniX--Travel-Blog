@@ -78,7 +78,8 @@ body {
 }
 
 .intro-cards {
-  background: rgba(220, 220, 220, 0.907);
+    border-radius: 20%;
+    background: linear-gradient(to right, #003049, #669bbc);
   margin-top: 25vh;
   padding: 2rem;
 }
@@ -99,10 +100,11 @@ body {
 }
 
 .profile {
-  width: 50%;
+  width: 60%;
 }
 
 .profile-pic {
+    width: 64%;
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
@@ -115,16 +117,19 @@ body {
 #card1 p,
 #card2 p {
   font-size: 22px;
-  line-height: 1.5;
+  line-height: 1.4;
   margin-bottom: 2rem;
   display: flex;
-  align-items: start;
-  justify-content: start;
-  text-align: justify;
-  font-family: sans-serif;
-  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
 }
 
 .social-media {
+    margin-top: 20px;
   letter-spacing: 12px;
 }
+
+
