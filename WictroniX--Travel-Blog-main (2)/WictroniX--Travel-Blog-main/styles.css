@@ -50,7 +50,7 @@ h2 {
 }
 
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.5);
+  background: ffff(0, 0, 0, 0.5);
   border-radius: 8px;
 }
 

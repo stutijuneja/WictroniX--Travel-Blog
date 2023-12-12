@@ -1,8 +1,15 @@
 * {
+  font-family: "Poppins", sans-serif;
+background: linear-gradient(
+  to bottom,
+  rgba(236, 240, 255, 0.95) 0%,
+  rgba(255, 255, 255, 0.85) 100%
+);
+}* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Futura";
 }
 
@@ -13,7 +20,7 @@ body {
 }
 
 .main {
-  background: #0f0d0d;
+  background: #ffff;
 }
 
 .page1 {
@@ -38,14 +45,20 @@ body {
   padding: 0 30px;
 }
 
-#nav h4 {
-  font-size: 14px;
+li {
+  list-style-type: none;
+}
+
+
+#nav a {
+  text-decoration: none;
+  font-size: 1.2em;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 #nav h4:nth-child(1) {
-  border-bottom: 1.5px solid #fff;
+  border-bottom: 1.5px solid #000000;
 }
 
 .page1 h1 {
@@ -78,7 +91,7 @@ body {
 }
 
 .intro-cards {
-  background: rgba(220, 220, 220, 0.907);
+  /* background: rgba(220, 220, 220, 0.907); */
   margin-top: 25vh;
   padding: 2rem;
 }
@@ -110,8 +123,9 @@ body {
 
 #card1 p,
 #card2 p {
-  font-size: 22px;
-  line-height: 1.5;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold; 
   margin-bottom: 2rem;
   display: flex;
   align-items: start;
